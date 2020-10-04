@@ -7,8 +7,8 @@
 		* { margin: 0; padding: 0; box-sizing: border-box; }
         
         body{
-        	background-image: url('image.jpg');
-        	background-size: 120% 120%;
+        	background-image: url('image/image.jpg');
+        	background-size: 110% 110%;
         }
 
         form{
@@ -28,16 +28,16 @@
 			font-size: 
 			background-colour:#000000;
 			border: none;
-			color: white;
+			color: blue;
 
 		}
 
 		#display{
-			width: inherit;height: 100px;
-			background-color: black;
+			width: inherit;height: 140px;
+			background-color: grey;
 			text-align: right;
 			color: white;
-			font-size: 25px;
+			font-size: 30px;
 			outline: none;
 		}
 
@@ -63,10 +63,12 @@
 
 
 		input:hover {
-			background-color: yellow;
+			background-color: blue;
 
 		}
-
+        .mainnumber{
+        	background-color: red;
+        }
 
 
 	</style>
@@ -88,7 +90,7 @@
 				
 				<input type="button"  name="" class="mainnumber"  value="9" onclick="calcy.answers.value += '9' ">
 				
-				<input type="button" name="" class="operator" value="*" onclick="calcy.answers.value += '*' ">
+				<input type="button" name="" class="operator" value="" onclick="calcy.answers.value += '' ">
 			</div>
 
 			<div class="layer">
